@@ -1,13 +1,6 @@
-/* =========================================================
-   File: reset.css
-   Project: CommuniNest
-   Purpose: Establishes a consistent styling baseline across browsers.
-   Author: Muhammad Abdullah
-   ========================================================= */
-
-/* =========================================================
-   Box Sizing
-   ========================================================= */
+/* ==========================================
+   Reset
+========================================== */
 
 /* Include padding and borders inside an element's width/height */
 *,
@@ -16,33 +9,25 @@
     box-sizing: border-box;
 }
 
-/* =========================================================
-   Reset Default Spacing
-   ========================================================= */
-
+/* Remove default browser spacing */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* =========================================================
-   HTML & Body Defaults
-   ========================================================= */
-
+/* Smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 
+/* Better body defaults */
 body {
     min-height: 100vh;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
 
-/* =========================================================
-   Responsive Media
-   ========================================================= */
-
+/* Responsive media */
 img,
 picture,
 svg,
@@ -52,10 +37,7 @@ canvas {
     max-width: 100%;
 }
 
-/* =========================================================
-   Form Elements
-   ========================================================= */
-
+/* Form elements inherit the site's typography */
 input,
 button,
 textarea,
@@ -63,38 +45,26 @@ select {
     font: inherit;
 }
 
-/* =========================================================
-   Button Reset
-   ========================================================= */
-
+/* Remove default button styling */
 button {
     border: none;
     background: none;
     cursor: pointer;
 }
 
-/* =========================================================
-   Anchor Reset
-   ========================================================= */
-
+/* Remove default link styling */
 a {
     color: inherit;
     text-decoration: none;
 }
 
-/* =========================================================
-   Lists
-   ========================================================= */
-
+/* Remove default list styling */
 ul,
 ol {
     list-style: none;
 }
 
-/* =========================================================
-   Typography
-   ========================================================= */
-
+/* Prevent text overflow */
 h1,
 h2,
 h3,
@@ -105,10 +75,7 @@ p {
     overflow-wrap: break-word;
 }
 
-/* =========================================================
-   Tables
-   ========================================================= */
-
+/* Better table defaults */
 table {
     border-collapse: collapse;
     border-spacing: 0;
