@@ -1,0 +1,71 @@
+/* ==========================================
+   Typography
+========================================== */
+
+/* Base typography */
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-normal);
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-tight);
+    color: var(--color-text);
+}
+
+/* Heading Sizes */
+
+h1 {
+    font-size: var(--fs-4xl);
+}
+
+h2 {
+    font-size: var(--fs-3xl);
+}
+
+h3 {
+    font-size: var(--fs-2xl);
+}
+
+h4 {
+    font-size: var(--fs-xl);
+}
+
+h5 {
+    font-size: var(--fs-lg);
+}
+
+h6 {
+    font-size: var(--fs-base);
+}
+
+/* Paragraphs */
+
+p {
+    color: var(--color-text-light);
+    line-height: var(--lh-relaxed);
+}
+
+/* Links */
+
+a {
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--color-primary);
+}
