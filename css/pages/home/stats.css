@@ -1,0 +1,62 @@
+/* ==========================================
+   Stats Section
+========================================== */
+
+.stats {
+    padding: 5rem 0;
+
+    background-color: var(--color-surface);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.stat-item {
+    padding: 2rem;
+
+    text-align: center;
+
+    background-color: var(--color-background);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+
+    transition:
+        transform var(--transition-normal),
+        box-shadow var(--transition-normal);
+}
+
+.stat-item:hover {
+    transform: translateY(-6px);
+
+    box-shadow: var(--shadow-md);
+}
+
+.stat-item h2 {
+    margin-bottom: 0.5rem;
+
+    color: var(--color-primary);
+
+    font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.stat-item p {
+    color: var(--color-text-light);
+
+    font-weight: var(--fw-medium);
+}
+
+@media (max-width: 992px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
