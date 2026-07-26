@@ -36,8 +36,12 @@
     color: var(--color-primary);
 }
 
-.logo-icon {
-    font-size: 1.5rem;
+.logo-img {
+    width: 48px;
+    height: 48px;
+
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 /* Navigation */

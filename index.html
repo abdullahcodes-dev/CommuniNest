@@ -48,7 +48,11 @@
       <nav class="navbar">
         <div class="container">
           <a href="#" class="logo">
-            <span class="logo-icon">🌿</span>
+            <img
+              src="assets/logo/favicon.png"
+              alt="CommuniNest Logo"
+              class="logo-img"
+            />
             <span class="logo-text">CommuniNest</span>
           </a>
 
@@ -271,7 +275,7 @@
 
           <div class="volunteers-grid">
             <div class="volunteer-card">
-              <img src="https://placehold.co/120x120" alt="Sarah Ahmed" />
+              <img src="assets/images/volunteer-1.jpg" alt="Sarah Ahmed" />
 
               <h3>Sarah Ahmed</h3>
 
@@ -279,7 +283,7 @@
             </div>
 
             <div class="volunteer-card">
-              <img src="https://placehold.co/120x120" alt="Ali Khan" />
+              <img src="assets/images/volunteer-2.jpg" alt="Ali Khan" />
 
               <h3>Ali Khan</h3>
 
@@ -287,7 +291,7 @@
             </div>
 
             <div class="volunteer-card">
-              <img src="https://placehold.co/120x120" alt="Fatima Noor" />
+              <img src="assets/images/volunteer-3.jpg" alt="Fatima Noor" />
 
               <h3>Fatima Noor</h3>
 
@@ -295,7 +299,7 @@
             </div>
 
             <div class="volunteer-card">
-              <img src="https://placehold.co/120x120" alt="Usman Tariq" />
+              <img src="assets/images/volunteer-4.jpg" alt="Usman Tariq" />
 
               <h3>Usman Tariq</h3>
 
@@ -424,7 +428,11 @@
       <div class="container">
         <div class="footer-content">
           <a href="#" class="logo">
-            <span class="logo-icon">🌿</span>
+            <img
+              src="assets/logo/favicon.png"
+              alt="CommuniNest Logo"
+              class="logo-img"
+            />
             <span class="logo-text">CommuniNest</span>
           </a>
 
@@ -469,7 +477,9 @@
         ></textarea>
 
         <div class="modal-actions">
-          <button type="submit" class="btn btn-primary">Submit Report</button>
+          <button id="submitReport" type="submit" class="btn btn-primary">
+            Submit Report
+          </button>
 
           <button type="button" class="btn btn-secondary modal-close">
             Cancel
@@ -477,6 +487,9 @@
         </div>
       </form>
     </dialog>
+    <div id="toast" class="toast">
+      <span>Issue submitted successfully!</span>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>

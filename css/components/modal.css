@@ -57,3 +57,39 @@
 
     margin-top: 0.5rem;
 }
+
+/* ==========================================
+   Toast
+========================================== */
+
+.toast {
+    position: fixed;
+
+    right: 2rem;
+    bottom: 2rem;
+
+    padding: 1rem 1.25rem;
+
+    background: var(--color-success);
+    color: white;
+
+    border-radius: var(--radius-md);
+
+    box-shadow: var(--shadow-lg);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(20px);
+
+    transition: all 0.3s ease;
+
+    z-index: 9999;
+}
+
+.toast.show {
+    opacity: 1;
+    visibility: visible;
+
+    transform: translateY(0);
+}
