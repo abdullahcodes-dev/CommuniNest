@@ -64,3 +64,5 @@ reportModal.addEventListener("click", (e) => {
         reportModal.close();
     }
 });
+
+lucide.createIcons();

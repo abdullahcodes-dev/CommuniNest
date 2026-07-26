@@ -78,8 +78,22 @@
     border-radius: 50%;
 
     background-color: rgba(46, 125, 50, 0.1);
+    color: var(--color-primary);
 
-    font-size: 1.75rem;
+    transition:
+        transform var(--transition-normal),
+        background-color var(--transition-normal);
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.08);
+    background-color: rgba(46, 125, 50, 0.15);
+}
+
+.feature-icon svg {
+    width: 30px;
+    height: 30px;
+    stroke-width: 2;
 }
 
 .feature-card h3 {
