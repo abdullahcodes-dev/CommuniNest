@@ -8,15 +8,9 @@ Built as a frontend portfolio project, CommuniNest demonstrates modern HTML, CSS
 
 ---
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-🔗 **Netlify:** *(Add after deployment)*
-
----
-
-# 📸 Preview
-
-*(Screenshots will be added after deployment.)*
+🔗 https://communinest.netlify.app
 
 ---
 
