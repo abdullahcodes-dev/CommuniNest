@@ -149,31 +149,31 @@ to create a polished and modern user experience.
 
 ## 🖥 Desktop View
 
-![Desktop Home](assets/screenshots/desktop-home.png)
+![Desktop Home](assets/screenshots/desktop-home.PNG)
 
 ---
 
 ## 📱 Mobile View
 
-![Mobile Home](assets/screenshots/mobile-home.png)
+![Mobile Home](assets/screenshots/mobile-home.PNG)
 
 ---
 
 ## 📍 Report Issue Modal
 
-![Report Modal](assets/screenshots/report-modal.png)
+![Report Modal](assets/screenshots/report-modal.PNG)
 
 ---
 
 ## 👥 Volunteers Section
 
-![Volunteers](assets/screenshots/volunteers-section.png)
+![Volunteers](assets/screenshots/volunteers-section.PNG)
 
 ---
 
 ## 📅 Events Section
 
-![Events](assets/screenshots/events-section.png)
+![Events](assets/screenshots/events-section.PNG)
 
 ---
 
